@@ -1,0 +1,7 @@
+ul {
+  list-style: none;
+  text-align: left;
+  background-color: rgb(34, 35, 53);
+  border-radius: 5px;
+  padding: 0px;
+}

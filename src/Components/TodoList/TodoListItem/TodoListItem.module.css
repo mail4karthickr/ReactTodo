@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  border-bottom: 1px solid rgb(48, 50, 69);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  background-color: royalblue;
+}
+
+.activeColor {
+  color: rgb(196, 198, 225);
+}
+
+.disabledColor {
+  color: rgb(68, 70, 90);
+}
+
+.crossButton {
+  width: 20px;
+  height: 20px;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+}
+
+.noStrikeThrough {
+  text-decoration: none;
+}

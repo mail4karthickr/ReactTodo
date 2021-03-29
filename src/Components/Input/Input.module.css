@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+  background-color: rgb(33, 35, 53);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.circle {
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(128, 160, 198);
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  color: rgb(196, 198, 225);
+  cursor: value;
+  width: 100%;
+}
+
+.addButton {
+  font-size: 1.5rem;
+  color: rgb(196, 198, 225);
+}
