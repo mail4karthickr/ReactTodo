@@ -4,18 +4,15 @@ import TodoListItem from './TodoListItem/TodoListItem';
 import Filter from 'Components/Filter/Filter';
 
 const TodoList = (props) => {
+   const listItems = props.todos.map((todo) => {
+        return <TodoListItem 
+            todo={todo}
+            todoCompleted={props.todoCompleted} 
+            todoRemoved={props.todoRemoved}
+        />
+    })
     return (
-        <ul>
-            {
-                props.todos.map((todo) => {
-                    return <TodoListItem 
-                        todo={todo}
-                        todoCompleted={props.todoCompleted} 
-                        todoRemoved={props.todoRemoved}
-                    />
-                })
-            }
-        </ul>
+        <ul>{listItems}</ul>
     );
 };
 

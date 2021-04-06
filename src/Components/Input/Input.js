@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 const Input = (props) => {
+    let attachedClasses = [classes.flex, classes.container, classes.addButton]
     return (
         <div className={`${classes.flex} ${classes.container}`}>
             <div className={classes.circle}></div>

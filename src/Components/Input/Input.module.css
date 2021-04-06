@@ -32,4 +32,13 @@ input {
 .addButton {
   font-size: 1.5rem;
   color: rgb(196, 198, 225);
+  cursor: pointer;
+}
+
+.lightTheme {
+  color: rgb(106, 106, 106);
+}
+
+.darkTheme {
+  color: rgb(106, 106, 106);
 }

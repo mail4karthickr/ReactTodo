@@ -75,12 +75,12 @@ class ToDoContainer extends Component {
     render() {
         return (
             <section className={classes.container}>
-                <Header></Header>
+                <Header/>
                 <Input 
                     todoEntered={this.todoEntered}
                     addTodo={this.addTodo}
                     onKeyDown={this.onKeyDown}
-                ></Input>
+                />
                 <TodoList 
                     todos={this.state.todos}
                     todoCompleted={this.todoCompleted}

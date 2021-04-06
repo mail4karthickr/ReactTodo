@@ -8,3 +8,7 @@
 .title {
   color: #fff;
 }
+
+.changeThemeButton {
+  cursor: pointer;
+}
